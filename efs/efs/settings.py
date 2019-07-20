@@ -39,6 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'portfolio',
     'crispy_forms',
+    'mathfilters',
+    'django.contrib.humanize',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
@@ -79,10 +82,10 @@ WSGI_APPLICATION = 'efs.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'dfqii1j4fo0qsa',
-        'USER': 'xyfbiknwclhqeh',
-        'PASSWORD': '680ade3784ed91af2e3ac5c1fb703c66f88cf71359bdfa115f48596afeeb0c87',
-        'HOST': 'ec2-54-83-1-101.compute-1.amazonaws.com',
+        'NAME': 'd24ro8r7s9thic',
+        'USER': 'prpuqvlbyqdmrf',
+        'PASSWORD': 'c85be64eda339889ee9dfe18870a9b3b60dc30f1d6f9aaafec3447d9b4cc376f',
+        'HOST': 'ec2-107-21-216-112.compute-1.amazonaws.com',
         'PORT': '5432',
 
     }
@@ -128,10 +131,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 LOGIN_REDIRECT_URL = '/home'
-# Update database configuration with $DATABASE_URL.
-db_from_env = dj_database_url.config(conn_max_age=500)
-DATABASES['default'].update(db_from_env)
-DATABASES['default'] = dj_database_url.config()
+
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
@@ -145,6 +145,11 @@ STATICFILES_DIRS = (
     os.path.join(PROJECT_ROOT, 'static'),
 )
 
+
+# Update database configuration with $DATABASE_URL.
+db_from_env = dj_database_url.config(conn_max_age=500)
+DATABASES['default'].update(db_from_env)
+DATABASES['default'] = dj_database_url.config()
 # Simplified static file serving.
 # https://warehouse.python.org/project/whitenoise/
 
