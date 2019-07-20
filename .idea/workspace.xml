@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b133df0b-cc3a-48ea-9567-f5ef69f2fa24" name="Default Changelist" comment="" />
+    <list default="true" id="b133df0b-cc3a-48ea-9567-f5ef69f2fa24" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/efs/efs/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/efs/efs/settings.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,11 +131,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/efs/efs/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1800">
-              <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+            <state relative-caret-position="240">
+              <caret line="87" column="59" selection-start-line="87" selection-start-column="59" selection-end-line="87" selection-end-column="59" />
               <folding>
                 <element signature="e#304#313#0" expanded="true" />
               </folding>
@@ -162,7 +164,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/efs/runtime.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -208,7 +210,6 @@
         <option value="$PROJECT_DIR$/efs/portfolio/utils.py.html" />
         <option value="$PROJECT_DIR$/efs/portfolio/utils.py" />
         <option value="$PROJECT_DIR$/efs/requirements.txt" />
-        <option value="$PROJECT_DIR$/efs/efs/settings.py" />
         <option value="$PROJECT_DIR$/efs/portfolio/templates/portfolio/summary.html" />
         <option value="$PROJECT_DIR$/efs/portfolio/templates/portfolio/portfolio.html" />
         <option value="$PROJECT_DIR$/efs/portfolio/models.py" />
@@ -219,6 +220,7 @@
         <option value="$PROJECT_DIR$/efs/portfolio/views.py" />
         <option value="$PROJECT_DIR$/efs/portfolio/templates/portfolio/portfoliopdf.html" />
         <option value="$PROJECT_DIR$/efs/efs/wsgi.py" />
+        <option value="$PROJECT_DIR$/efs/efs/settings.py" />
       </list>
     </option>
   </component>
@@ -340,8 +342,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -355,7 +358,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -640,16 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/efs/efs/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1800">
-          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-          <folding>
-            <element signature="e#304#313#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/efs/efs/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -671,6 +664,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/efs/efs/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="87" column="59" selection-start-line="87" selection-start-column="59" selection-end-line="87" selection-end-column="59" />
+          <folding>
+            <element signature="e#304#313#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
